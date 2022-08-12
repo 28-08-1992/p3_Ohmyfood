@@ -1,0 +1,23 @@
+@use "./variable";
+
+@mixin gradient($opacity:0.9) {
+background-image: linear-gradient(variable.$secondaire_color, variable.$primaire_color);
+}
+@mixin button {
+ color: variable.$text_color;
+  font-size: 15px;
+  padding: 16px 25px;
+  border-radius: 1.5rem;
+  margin-bottom: 50px;
+  border: none;
+}
+@mixin box_shadow {
+  box-shadow: 2px 1px 9px -3px rgba($color: variable.$black, $alpha: 0.75);
+}
+@mixin heart {
+  background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    opacity: 0;
+    transition: all 0.25s ease-in-out;
+}
