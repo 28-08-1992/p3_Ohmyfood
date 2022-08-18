@@ -1,0 +1,30 @@
+
+@keyframes loading {
+   from { transform: scale(1);}
+   to { transform: scale(0);}
+}
+
+
+@keyframes chek {
+    0% {
+       transform: rotate(0);
+    }
+    100% {
+       transform: rotate(360deg);
+    }
+ }
+ @keyframes spin {
+   from { transform: rotate( 0turn);}
+   to { transform: rotate(1turn);}
+ }
+
+ @keyframes composantbar {
+   0% {
+     transform: translateY(50%);
+     opacity: 0;
+   }
+   100% {
+      transform: translateY(0);
+      opacity: 1;
+   }
+ }
