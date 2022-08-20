@@ -44,13 +44,7 @@ header {
        }
       &:hover .fa-solid {
          opacity: 1;
-         transform:  translate(-50%,-50%) scale(1.1);
-         cursor: pointer;
-       } 
-      }
-  .grid {
-   display: grid;
-   gap: 2rem;
+         transform:  translate(-50%,-50%) scale(1.1);}
    @media screen and (min-width: variable.$media){
       grid-template-columns: repeat(3,1fr);
    }

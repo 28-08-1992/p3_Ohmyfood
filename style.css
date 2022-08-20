@@ -138,26 +138,21 @@ img {
 .la_palette .heart:hover .fa-solid {
   opacity: 1;
   transform: translate(-50%, -50%) scale(1.1);
-  cursor: pointer;
-}
-.la_palette .grid {
-  display: grid;
-  gap: 2rem;
 }
 @media screen and (min-width: 800px) {
-  .la_palette .grid {
+  .la_palette .heart {
     grid-template-columns: repeat(3, 1fr);
   }
 }
-.la_palette .grid .menu_composants {
+.la_palette .heart .menu_composants {
   overflow: hidden;
 }
-.la_palette .grid .menu_composants h3 {
+.la_palette .heart .menu_composants h3 {
   font-weight: 400;
   position: relative;
   margin-left: 1rem;
 }
-.la_palette .grid .menu_composants h3::after {
+.la_palette .heart .menu_composants h3::after {
   content: "";
   position: absolute;
   background-color: #99E2D0;
@@ -166,7 +161,7 @@ img {
   top: 1.5rem;
   left: 0px;
 }
-.la_palette .grid .composants {
+.la_palette .heart .composants {
   display: flex;
   background-color: white;
   border-radius: 1rem;
@@ -179,36 +174,36 @@ img {
   animation: composantbar 3s;
   animation-fill-mode: both;
 }
-.la_palette .grid .composants:nth-child(1) {
+.la_palette .heart .composants:nth-child(1) {
   animation-delay: 100ms;
 }
-.la_palette .grid .composants:nth-child(2) {
+.la_palette .heart .composants:nth-child(2) {
   animation-delay: 200ms;
 }
-.la_palette .grid .composants:nth-child(3) {
+.la_palette .heart .composants:nth-child(3) {
   animation-delay: 300ms;
 }
-.la_palette .grid .composants:nth-child(4) {
+.la_palette .heart .composants:nth-child(4) {
   animation-delay: 400ms;
 }
-.la_palette .grid .composants .menu_contenu {
+.la_palette .heart .composants .menu_contenu {
   padding: 10px;
   overflow: hidden;
 }
-.la_palette .grid .composants .menu_prix {
+.la_palette .heart .composants .menu_prix {
   margin-left: auto;
   display: flex;
   align-items: flex-end;
   padding: 1rem;
   font-weight: 900;
 }
-.la_palette .grid .composants h4, .la_palette .grid .composants p {
+.la_palette .heart .composants h4, .la_palette .heart .composants p {
   margin: 0px;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
 }
-.la_palette .grid .composants .check {
+.la_palette .heart .composants .check {
   background-color: #99E2D0;
   width: 3rem;
   display: grid;
@@ -218,7 +213,7 @@ img {
   transition: margin-right 0.5s;
   flex-shrink: 0;
 }
-.la_palette .grid .composants .check i {
+.la_palette .heart .composants .check i {
   border: 1px solid white;
   font-weight: 900;
   padding: 5px;
@@ -226,10 +221,10 @@ img {
   background-color: white;
   color: #99E2D0;
 }
-.la_palette .grid .composants:hover .check {
+.la_palette .heart .composants:hover .check {
   margin-right: 0;
 }
-.la_palette .grid .composants:hover i {
+.la_palette .heart .composants:hover i {
   animation: chek 500ms ease;
 }
 
