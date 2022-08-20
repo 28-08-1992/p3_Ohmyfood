@@ -19,7 +19,7 @@ header {
     height: 65vh;
     object-fit: cover;
  }
- .la_palette {
+.la_palette {
    background-color: variable.$light_grey_color;
    border-radius: 3rem 3rem 0rem 0rem;
    margin-top: -7rem;
@@ -44,7 +44,13 @@ header {
        }
       &:hover .fa-solid {
          opacity: 1;
-         transform:  translate(-50%,-50%) scale(1.1);}
+         transform:  translate(-50%,-50%) scale(1.1);
+         cursor: pointer;
+       }
+      }
+      .grid {
+         display: grid;
+         gap: 2rem;
    @media screen and (min-width: variable.$media){
       grid-template-columns: repeat(3,1fr);
    }
