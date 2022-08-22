@@ -173,7 +173,7 @@ h1 {
    font-weight: bold;
    padding: 5px 10px;
    background-color: variable.$tertiaire_color;
-   color: #2b7c68;
+   color: darken($color: variable.$tertiaire_color , $amount: 40%) ;
    align-items: center;
    justify-content: center;
   }
