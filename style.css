@@ -131,6 +131,7 @@ img {
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
+  -webkit-text-fill-color: transparent;
   opacity: 0;
   transition: all 0.25s ease-in-out;
   background-image: linear-gradient(#FF79DA, #9356DC);
@@ -361,6 +362,7 @@ h1 {
 .fonctionnement li:hover {
   transform: scale(1.03);
   cursor: pointer;
+  background-color: #fbfbfb;
 }
 .fonctionnement li:hover i {
   color: #9356DC;
@@ -463,11 +465,12 @@ h1 {
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
+  -webkit-text-fill-color: transparent;
   opacity: 0;
   transition: all 0.25s ease-in-out;
   background-image: linear-gradient(#FF79DA, #9356DC);
 }
-.menu .card_body:hover .fa-solid {
+.menu .card_body:hover .fa-solid.fa-heart {
   opacity: 1;
   transform: translateY(-50%) scale(1.1);
 }

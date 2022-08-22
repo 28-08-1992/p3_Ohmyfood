@@ -21,6 +21,7 @@ background-image: linear-gradient(variable.$secondaire_color, variable.$primaire
   background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
+    -webkit-text-fill-color: transparent;
     opacity: 0;
     transition: all 0.25s ease-in-out;
 }
