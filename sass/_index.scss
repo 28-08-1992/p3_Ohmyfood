@@ -209,7 +209,7 @@ h1 {
         @include mixin.heart;
         @include mixin.gradient(1);
         }
-        &:hover .fa-solid.fa-heart {
+        .heart:hover .fa-solid.fa-heart {
           opacity: 1;
           transform: translateY(-50%) scale(1.1);
          }
