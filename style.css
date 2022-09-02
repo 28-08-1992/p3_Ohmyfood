@@ -470,9 +470,19 @@ h1 {
   transition: all 0.25s ease-in-out;
   background-image: linear-gradient(#FF79DA, #9356DC);
 }
-.menu .card_body:hover .fa-solid.fa-heart {
+
+.menu .card_body .heart:hover .fa-solid.fa-heart {
   opacity: 1;
   transform: translateY(-50%) scale(1.1);
 }
-
+.position > input{
+  border: none;
+  background: transparent;
+  font-size: 17px;
+ 
+  height: 40px;
+  color: initial;
+  
+  width: 130px;
+}
 /*# sourceMappingURL=style.css.map */
