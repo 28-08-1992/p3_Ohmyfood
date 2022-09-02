@@ -33,14 +33,23 @@ h1 {
   padding-top: 30px;
 }
 .position {
+  height: 4rem;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 16px;
   background-color: variable.$grey_color;
 
- h2 {
-  font-size: 17px;
+ input {
+  border: none;
+  outline: 0;
+  background: inherit;
+  color: variable.$black;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  width: 9rem;
+ 
 }
 }
 
