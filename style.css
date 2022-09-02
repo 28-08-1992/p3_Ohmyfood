@@ -35,6 +35,7 @@
 }
 html {
   max-width: 1500px;
+  margin: auto;
 }
 
 body {
@@ -111,23 +112,23 @@ img {
   border-radius: 3rem 3rem 0rem 0rem;
   margin-top: -7rem;
 }
-.la_palette .heart {
+.la_palette .hearts {
   display: flex;
   position: relative;
 }
-.la_palette .heart h2 {
+.la_palette .hearts h2 {
   font-family: "shrikhand", sans-serif;
   width: 100%;
   padding-left: 1rem;
 }
-.la_palette .heart i {
+.la_palette .hearts i {
   position: absolute;
   right: 20px;
   top: 50%;
   font-size: 25px;
   transform: translate(-50%, -50%);
 }
-.la_palette .heart .fa-solid {
+.la_palette .hearts .fa-solid {
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
@@ -136,7 +137,7 @@ img {
   transition: all 0.25s ease-in-out;
   background-image: linear-gradient(#FF79DA, #9356DC);
 }
-.la_palette .heart:hover .fa-solid {
+.la_palette .hearts .heart:hover .fa-solid {
   opacity: 1;
   transform: translate(-50%, -50%) scale(1.1);
   cursor: pointer;
@@ -287,14 +288,22 @@ h1 {
 }
 
 .position {
+  height: 4rem;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 16px;
   background-color: #DEDEDE;
 }
-.position h2 {
-  font-size: 17px;
+.position input {
+  border: none;
+  outline: 0;
+  background: inherit;
+  color: black;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  width: 160px;
 }
 
 .explorer {
@@ -470,19 +479,9 @@ h1 {
   transition: all 0.25s ease-in-out;
   background-image: linear-gradient(#FF79DA, #9356DC);
 }
-
 .menu .card_body .heart:hover .fa-solid.fa-heart {
   opacity: 1;
   transform: translateY(-50%) scale(1.1);
 }
-.position > input{
-  border: none;
-  background: transparent;
-  font-size: 17px;
- 
-  height: 40px;
-  color: initial;
-  
-  width: 130px;
-}
+
 /*# sourceMappingURL=style.css.map */
